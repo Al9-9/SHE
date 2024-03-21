@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!-- Head -->
+<%- include('../partials/head') %>
+<body>
+     <!-- Header -->
+<%- include('../partials/header') %>
+
+<main>
+<form action="/notas" method="POST">
+  <div>
+    <label for="name" class="form-label"></label>
+    <textarea name="description" id="description" class="form-input"></textarea>
+
+  </div>
+
+</form>
+
+
+</main>
+     <!--Footer -->
+<%- include('../partials/footer') %>
+
+
+</body>
+</html>

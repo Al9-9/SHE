@@ -1,0 +1,21 @@
+
+ /* Básico */
+ * {
+    box-sizing: border-box;
+  }
+ 
+ body{
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/vector-gratis/patron-dia-mujer-caras-mujeres_23-2148408691.jpg?t=st=1711052505~exp=1711056105~hmac=4734b3741e8d683665880fb9a075286e63bb0b43158b1f43b8d2746a8616417c&w=1380');
+   
+    
+}
+
+textarea{
+    height: 240px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    background-color: #b69cff;
+    border: none;
+}
